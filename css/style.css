@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background:#222222;
+        color:#E7E5DF;
+    }
+    a:
+}
+
+a{
+    font-style:inline;
+    font-weight:bold;
+    color:#222222;
+    transition:0.5s;
+}
+
+a:hover{
+    color:#232223;
+}
+
+.about{
+    text-align:center;
+    display:flex;
+    margin-left:20rem;
+    margin-right:20rem;
+}
+
+.about img{
+    width:10rem;
+    height:10rem;
+    border-radius:50%;
+}
+.projects{
+    text-align:center;
+    margin:auto;
+    display:block;
+    margin-left:20rem;
+    margin-right:20rem;
+}
