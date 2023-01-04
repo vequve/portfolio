@@ -43,7 +43,7 @@ div.navbar a{
 }
 
 div.navbar a:hover{
-    color:#ffffff;
+    color:darkgray;
 }
 
 
@@ -131,10 +131,16 @@ div.template h2{
 
 
 @media (prefers-color-scheme: dark) {
+    
     body{
         background:#222222;
         color:#E7E5DF;
     }
+
+    div.articles h1{
+        color:#E7E5DF;
+    }
+    
     a.links{
         color:#E7E5DF;
         font-style:inline;
