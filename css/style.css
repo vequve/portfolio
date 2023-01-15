@@ -88,8 +88,25 @@ a{
     margin-top: 3rem;
     height: 2.5rem;
     width:6rem;
-    background:#c3c3c3;
-    box-shadow: 0 0 1px black;
+    background:#c3c3c3;        
+    border:2px solid darkgray;
+    border-bottom:2px solid gray;
+    border-right:2px solid gray;
+}
+          
+
+.bottoni:hover{
+    cursor:pointer;
+}
+
+.bottoni:active{
+    border:2px solid gray;
+    border-bottom:2px solid darkgray;
+    border-right:2px solid darkgray;
+}
+
+.bottoni a:hover{
+    cursor:normal    ;
 }
 
 @media  screen and (max-width: 55rem) {
