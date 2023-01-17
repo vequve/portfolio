@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     color:#000000;
-    font-family: sans-serif;
+    font-family: "Text", serif;
     margin: 0;
 }
 
@@ -43,6 +43,7 @@ div.header{
 
 .body h1{
     text-align: center;
+    font-family: "Title", sans-serif;
 }
 #avatar{
     width: 10rem;
@@ -63,6 +64,7 @@ a{
 .text p{
     margin-left: 1rem;
     text-align: justify;
+    font-size: 14pt;
 }
 
 .centertext{
@@ -88,6 +90,7 @@ a{
     margin-top: 3rem;
     height: 2.5rem;
     width:6rem;
+    font-family: "Title", sans-serif;
     background:#c3c3c3;        
     border:2px solid darkgray;
     border-bottom:2px solid gray;
@@ -127,4 +130,14 @@ a{
     .projects{
         height: 19rem;
     }
+}
+
+@font-face {
+    font-family: "Title";
+    src: url("../fonts/font.ttf");
+}
+
+@font-face {
+    font-family: "Text";
+    src: url("../fonts/text.otf");
 }
