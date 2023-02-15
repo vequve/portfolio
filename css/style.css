@@ -38,20 +38,20 @@ div.header{
     height: 1.5rem;
     text-align: center;
     font-size: 1.2rem;
-    background: #818181;
+    background:#c3c3c3;
     font-family: "Text", sans-serif;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
     margin-right: 0.4rem;
-    border:2px solid white;
-    border-bottom:2px solid darkgray;
-    border-right:2px solid darkgray; 
+    border:2px solid darkgray;
+    border-bottom:2px solid gray;
+    border-right:2px solid gray; 
 }
 
 .decorations button:active{
-    border:2px solid darkgray;
-    border-bottom:2px solid white;
-    border-right:2px solid white; 
+    border:2px solid gray;
+    border-bottom:2px solid darkgray;
+    border-right:2px solid darkgray;
 }
 .window{
     margin-top:2rem;
